@@ -1,0 +1,89 @@
+    1  cd ~/Desktop/
+    2  help
+    3  mkdir toto
+    4  s
+    5  ls
+    6  dir
+    7  cls
+    8  cls
+    9  clear
+   10  dir
+   11  ls -l
+   12  ls -la
+   13  cd toto/
+   14  touch
+   15  touch --help
+   16  touch bibu.text
+   17  ls
+   18  touch .biba.txt
+   19  ls
+   20  ls -la
+   21  mkdir Data
+   22  cd Data/
+   23  touch merci.txt
+   24  mkdir .test
+   25  cd ..
+   26  cd .
+   27  ls -la
+   28  git init
+   29  cd .
+   30  echo "Bonjour" > biba.txt
+   31  touch bibu.txt
+   32  echo "Bonjou" > biba.txt
+   33  echo "Bonjour" > biba.txt
+   34  git add .
+   35  git status
+   36  git commit -m "bonjour"
+   37  cat biba.txt
+   38  echo "Aurevoir" >> bibu.txt
+   39  echo "Aurevoir" >> biba.txt
+   40  cat biba.txt
+   41  git add .
+   42  git commit -m "mon deuxieme commit"
+   43  cat bibu.txt
+   44  echo hello > bibu.txt
+   45  cat bibu.txt
+   46  echo hello >> bibu.txt
+   47  echo hello >> bibu.txt
+   48  git add .
+   49  git commit -m "troisieme"
+   50  git branch test
+   51  git checkout test
+   52  pull master
+   53  git checkout
+   54  git add .
+   55  git commit -m " branch test"
+   56  git rm biba.txt
+   57  ls
+   58  git rm -rf Data/
+   59  git add *
+   60  git commit -m " suppression de fichier"
+   61  git checkout master
+   62  git checkout
+   63  ls
+   64  touch ./Data/{oh,ah}.txt
+   65  ls
+   66  cd Data/
+   67  ls
+   68  cd ..
+   69  git add *
+   70  git commit -m " ajout de fichiers"
+   71  git branch Re7
+   72  git checkout Re7
+   73  git add *
+   74  git commit -m "premier commit branch Re7"
+   75  /dir
+   76  dir
+   77  branch checkout test
+   78  git checkout test
+   79  dir
+   80  git checkout Re7
+   81  git add*
+   82  git add .
+   83  git commit -m "je sais pas"
+   84  ls -la
+   85  git touch Historique.txt
+   86  touch Historique.txt
+   87  ls
+   88  history
+   89  history > Historique.txt
